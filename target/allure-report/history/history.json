@@ -1,0 +1,317 @@
+{
+  "2e60780ec04cfd59f51274b3e8b17091" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "d15ade58b739c900",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/20/allure/#testresult/d15ade58b739c900",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551342644338,
+        "stop" : 1551342683444,
+        "duration" : 39106
+      }
+    }, {
+      "uid" : "903afb4ed8b0cb2f",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/17/allure/#testresult/903afb4ed8b0cb2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551338327771,
+        "stop" : 1551338366006,
+        "duration" : 38235
+      }
+    }, {
+      "uid" : "49615dc9090bffee",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/16/allure/#testresult/49615dc9090bffee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551338327771,
+        "stop" : 1551338366006,
+        "duration" : 38235
+      }
+    }, {
+      "uid" : "ac4ba0aae80d7a5b",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/15/allure/#testresult/ac4ba0aae80d7a5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551338327771,
+        "stop" : 1551338366006,
+        "duration" : 38235
+      }
+    }, {
+      "uid" : "726cdf1a022bdae6",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/7/allure/#testresult/726cdf1a022bdae6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551166516747,
+        "stop" : 1551166559235,
+        "duration" : 42488
+      }
+    } ]
+  },
+  "16c0f7b0233316333b0e9a9866b41817" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "6b185450e8d784a8",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/28/allure/#testresult/6b185450e8d784a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551406966849,
+        "stop" : 1551406999737,
+        "duration" : 32888
+      }
+    }, {
+      "uid" : "bfde523a247a3e8e",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/27/allure/#testresult/bfde523a247a3e8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551349942499,
+        "stop" : 1551349976331,
+        "duration" : 33832
+      }
+    }, {
+      "uid" : "af18fcb0280ff808",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/26/allure/#testresult/af18fcb0280ff808",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551349687216,
+        "stop" : 1551349719340,
+        "duration" : 32124
+      }
+    }, {
+      "uid" : "852826a72807c970",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/25/allure/#testresult/852826a72807c970",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551349493441,
+        "stop" : 1551349525096,
+        "duration" : 31655
+      }
+    }, {
+      "uid" : "1f150309f0aad37f",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/24/allure/#testresult/1f150309f0aad37f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551344826654,
+        "stop" : 1551344856671,
+        "duration" : 30017
+      }
+    } ]
+  },
+  "6a858b80b19c4eb1c4a81040be92454a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "fabb82c5f6af164e",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/22/allure/#testresult/fabb82c5f6af164e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='account']\"}\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=71.0.3578.80 (2ac50e7249fbd55e6f517a28131605c9fb9fe897),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'ZHOUJIANPING1', ip: '192.168.40.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.80 (2ac50e7249fbd..., userDataDir: C:\\windows\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1294}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: d2423a708f701a1430f8a078e1cf3288\n*** Element info: {Using=xpath, value=//input[@id='account']}",
+      "time" : {
+        "start" : 1551343949278,
+        "stop" : 1551343949283,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "9d1758d6dac4028c",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/21/allure/#testresult/9d1758d6dac4028c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='account']\"}\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=71.0.3578.80 (2ac50e7249fbd55e6f517a28131605c9fb9fe897),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'ZHOUJIANPING1', ip: '192.168.40.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.80 (2ac50e7249fbd..., userDataDir: C:\\windows\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1294}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: d2423a708f701a1430f8a078e1cf3288\n*** Element info: {Using=xpath, value=//input[@id='account']}",
+      "time" : {
+        "start" : 1551343949278,
+        "stop" : 1551343949283,
+        "duration" : 5
+      }
+    } ]
+  },
+  "3dcad4106d85e0b7301093851c5d0c06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "8fb2ec636fefde4a",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/28/allure/#testresult/8fb2ec636fefde4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551407000022,
+        "stop" : 1551407032104,
+        "duration" : 32082
+      }
+    }, {
+      "uid" : "ddc18d8371c2904c",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/27/allure/#testresult/ddc18d8371c2904c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551349976515,
+        "stop" : 1551350007003,
+        "duration" : 30488
+      }
+    }, {
+      "uid" : "dee449320dec7022",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/26/allure/#testresult/dee449320dec7022",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551349719548,
+        "stop" : 1551349750170,
+        "duration" : 30622
+      }
+    }, {
+      "uid" : "e578a43a0b8a3836",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/25/allure/#testresult/e578a43a0b8a3836",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551349525366,
+        "stop" : 1551349555627,
+        "duration" : 30261
+      }
+    }, {
+      "uid" : "e24ba52478305807",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/24/allure/#testresult/e24ba52478305807",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551344856861,
+        "stop" : 1551344887989,
+        "duration" : 31128
+      }
+    } ]
+  },
+  "1ce16d9c493a693c0b25ce1cdff03bca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 2,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 20
+    },
+    "items" : [ {
+      "uid" : "325c956440d83347",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/22/allure/#testresult/325c956440d83347",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='account']\"}\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=71.0.3578.80 (2ac50e7249fbd55e6f517a28131605c9fb9fe897),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'ZHOUJIANPING1', ip: '192.168.40.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.80 (2ac50e7249fbd..., userDataDir: C:\\windows\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1294}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: d2423a708f701a1430f8a078e1cf3288\n*** Element info: {Using=xpath, value=//input[@id='account']}",
+      "time" : {
+        "start" : 1551343949569,
+        "stop" : 1551343949570,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3ea22456517a3ef9",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/21/allure/#testresult/3ea22456517a3ef9",
+      "status" : "skipped",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='account']\"}\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=71.0.3578.80 (2ac50e7249fbd55e6f517a28131605c9fb9fe897),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'ZHOUJIANPING1', ip: '192.168.40.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.80 (2ac50e7249fbd..., userDataDir: C:\\windows\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1294}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: d2423a708f701a1430f8a078e1cf3288\n*** Element info: {Using=xpath, value=//input[@id='account']}",
+      "time" : {
+        "start" : 1551343949569,
+        "stop" : 1551343949570,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5c01b5ec1958d28e",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/20/allure/#testresult/5c01b5ec1958d28e",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <button type=\"button\" id=\"stepTwoContinue\" class=\"btn btn-s btn-blue\">...</button> is not clickable at point (957, 469). Other element would receive the click: <div id=\"J_ajax_loading\" class=\"overlayer loading\"></div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=71.0.3578.80 (2ac50e7249fbd55e6f517a28131605c9fb9fe897),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'ZHOUJIANPING1', ip: '192.168.40.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.80 (2ac50e7249fbd..., userDataDir: C:\\windows\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:33009}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: d4cbca1e8e2a5754c2eff2851063e03c",
+      "time" : {
+        "start" : 1551341731183,
+        "stop" : 1551341747857,
+        "duration" : 16674
+      }
+    }, {
+      "uid" : "9e8b0add24260f2a",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/19/allure/#testresult/9e8b0add24260f2a",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <button type=\"button\" id=\"stepTwoContinue\" class=\"btn btn-s btn-blue\">...</button> is not clickable at point (957, 469). Other element would receive the click: <div id=\"J_ajax_loading\" class=\"overlayer loading\"></div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=71.0.3578.80 (2ac50e7249fbd55e6f517a28131605c9fb9fe897),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'ZHOUJIANPING1', ip: '192.168.40.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.80 (2ac50e7249fbd..., userDataDir: C:\\windows\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:33009}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: d4cbca1e8e2a5754c2eff2851063e03c",
+      "time" : {
+        "start" : 1551341731183,
+        "stop" : 1551341747857,
+        "duration" : 16674
+      }
+    }, {
+      "uid" : "35f4ff6cde6efa0a",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/18/allure/#testresult/35f4ff6cde6efa0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551341517723,
+        "stop" : 1551341557359,
+        "duration" : 39636
+      }
+    } ]
+  },
+  "d123f8f74e6000ce790dd2f4e4c9c1fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "ef143cb72117825e",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/28/allure/#testresult/ef143cb72117825e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551407032167,
+        "stop" : 1551407061322,
+        "duration" : 29155
+      }
+    }, {
+      "uid" : "4a0f547d480ceaa0",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/27/allure/#testresult/4a0f547d480ceaa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551350007026,
+        "stop" : 1551350036805,
+        "duration" : 29779
+      }
+    }, {
+      "uid" : "85021c84a9ac032a",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/26/allure/#testresult/85021c84a9ac032a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551349750214,
+        "stop" : 1551349779911,
+        "duration" : 29697
+      }
+    }, {
+      "uid" : "a8bf79c1f360d681",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/25/allure/#testresult/a8bf79c1f360d681",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551349555652,
+        "stop" : 1551349586193,
+        "duration" : 30541
+      }
+    }, {
+      "uid" : "290433b896918e5b",
+      "reportUrl" : "http://localhost:8080/job/seleniumtest/24/allure/#testresult/290433b896918e5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551344888003,
+        "stop" : 1551344921249,
+        "duration" : 33246
+      }
+    } ]
+  }
+}

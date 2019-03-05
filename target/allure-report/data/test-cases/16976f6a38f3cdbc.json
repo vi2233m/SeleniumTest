@@ -1,0 +1,255 @@
+{
+  "uid" : "16976f6a38f3cdbc",
+  "name" : "test",
+  "fullName" : "com.demo.TestDemo.test",
+  "historyId" : "3dcad4106d85e0b7301093851c5d0c06",
+  "time" : {
+    "start" : 1551349976515,
+    "stop" : 1551350007003,
+    "duration" : 30488
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1551349927408,
+      "stop" : 1551349942258,
+      "duration" : 14850
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "标准入库下单 第一步",
+      "time" : {
+        "start" : 1551349980099,
+        "stop" : 1551349983020,
+        "duration" : 2921
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f6ab7162c1005703",
+        "name" : "验货仓:",
+        "source" : "f6ab7162c1005703.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "8655f8e0403b6d13",
+        "name" : "目的仓:",
+        "source" : "8655f8e0403b6d13.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "de7732c2707fc39d",
+        "name" : "WINIT产品",
+        "source" : "de7732c2707fc39d.txt",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "39cdab7d670c7bde",
+        "name" : "客户订单号",
+        "source" : "39cdab7d670c7bde.txt",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "datas.inbound.InboundAddData@24f77478"
+      } ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "标准入库下单 第二步",
+      "time" : {
+        "start" : 1551349983020,
+        "stop" : 1551349989198,
+        "duration" : 6178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b11366b21ce4991",
+        "name" : "箱号:",
+        "source" : "9b11366b21ce4991.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "864dc4e513574d77",
+        "name" : "packageWeight:",
+        "source" : "864dc4e513574d77.txt",
+        "type" : "text/plain",
+        "size" : 1
+      }, {
+        "uid" : "954b961cbda0691a",
+        "name" : "packageLength",
+        "source" : "954b961cbda0691a.txt",
+        "type" : "text/plain",
+        "size" : 2
+      }, {
+        "uid" : "92739df86ff472",
+        "name" : "packageWidth",
+        "source" : "92739df86ff472.txt",
+        "type" : "text/plain",
+        "size" : 2
+      }, {
+        "uid" : "695d9d63ea2fd897",
+        "name" : "sendKeys",
+        "source" : "695d9d63ea2fd897.txt",
+        "type" : "text/plain",
+        "size" : 2
+      }, {
+        "uid" : "ba25d6ca55dddd06",
+        "name" : "商品编码",
+        "source" : "ba25d6ca55dddd06.txt",
+        "type" : "text/plain",
+        "size" : 10
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "datas.inbound.InboundAddData@24f77478"
+      } ],
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "标准入库下单 第三步",
+      "time" : {
+        "start" : 1551349989199,
+        "stop" : 1551349996009,
+        "duration" : 6810
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "datas.inbound.InboundAddData@24f77478"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "标准入库下单 第四步",
+      "time" : {
+        "start" : 1551349996010,
+        "stop" : 1551349999839,
+        "duration" : 3829
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "datas.inbound.InboundAddData@24f77478"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "标准入库下单提交 第五步",
+      "time" : {
+        "start" : 1551349999839,
+        "stop" : 1551350002000,
+        "duration" : 2161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1551350036818,
+      "stop" : 1551350039739,
+      "duration" : 2921
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.demo.TestDemo"
+  }, {
+    "name" : "testClass",
+    "value" : "com.demo.TestDemo"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite"
+  }, {
+    "name" : "suite",
+    "value" : "testName"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.demo.TestDemo"
+  }, {
+    "name" : "host",
+    "value" : "zhoujianping1"
+  }, {
+    "name" : "thread",
+    "value" : "139632@zhoujianping1.TestNG-test=testName-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "234567"
+  }, {
+    "name" : "arg1",
+    "value" : "765432"
+  } ],
+  "links" : [ {
+    "name" : "dadfd",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16976f6a38f3cdbc.json",
+  "parameterValues" : [ "234567", "765432" ]
+}

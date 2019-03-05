@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "zhoujianping1",
+    "children" : [ {
+      "name" : "6276@zhoujianping1.TestNG-test=testName-1(14)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "ef143cb72117825e",
+        "parentUid" : "8b4ab9bd05e683b218a4d08b91c6e675",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551407032167,
+          "stop" : 1551407061322,
+          "duration" : 29155
+        },
+        "flaky" : false,
+        "parameters" : [ "345678", "876543" ]
+      }, {
+        "name" : "test",
+        "uid" : "8fb2ec636fefde4a",
+        "parentUid" : "8b4ab9bd05e683b218a4d08b91c6e675",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551407000022,
+          "stop" : 1551407032104,
+          "duration" : 32082
+        },
+        "flaky" : false,
+        "parameters" : [ "234567", "765432" ]
+      }, {
+        "name" : "test",
+        "uid" : "6b185450e8d784a8",
+        "parentUid" : "8b4ab9bd05e683b218a4d08b91c6e675",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551406966849,
+          "stop" : 1551406999737,
+          "duration" : 32888
+        },
+        "flaky" : false,
+        "parameters" : [ "123456", "654321" ]
+      } ],
+      "uid" : "8b4ab9bd05e683b218a4d08b91c6e675"
+    } ],
+    "uid" : "a75c8cd9f47448f20e86dec1ebf7b334"
+  } ]
+}
