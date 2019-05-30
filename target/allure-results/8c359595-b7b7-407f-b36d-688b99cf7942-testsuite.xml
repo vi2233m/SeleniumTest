@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1551771755257" stop="1551771805756" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : SeleniumTest</name>
+    <title>Default Suite : SeleniumTest</title>
+    <test-cases>
+        <test-case start="1551771769735" stop="1551771802523" status="passed">
+            <name>test[123456,654321]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumTest"/>
+                <label name="testClass" value="com.demo.TestDemo"/>
+                <label name="testMethod" value="test"/>
+                <label name="testId" value="34233"/>
+                <label name="host" value="zhoujianping1"/>
+                <label name="thread" value="12260@zhoujianping1.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1551771769735" stop="1551771802523" status="passed">
+            <name>test[123456,654321]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumTest"/>
+                <label name="testClass" value="com.demo.TestDemo"/>
+                <label name="testMethod" value="test"/>
+                <label name="testId" value="34233"/>
+                <label name="host" value="zhoujianping1"/>
+                <label name="thread" value="12260@zhoujianping1.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1551768769323" stop="1551768879060" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : SeleniumTest</name>
+    <title>Default Suite : SeleniumTest</title>
+    <test-cases>
+        <test-case start="1551768783878" stop="1551768815516" status="passed">
+            <name>test[123456,654321]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumTest"/>
+                <label name="testClass" value="com.demo.TestDemo"/>
+                <label name="testMethod" value="test"/>
+                <label name="testId" value="34233"/>
+                <label name="host" value="zhoujianping1"/>
+                <label name="thread" value="10708@zhoujianping1.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1551768783878" stop="1551768815516" status="passed">
+            <name>test[123456,654321]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumTest"/>
+                <label name="testClass" value="com.demo.TestDemo"/>
+                <label name="testMethod" value="test"/>
+                <label name="testId" value="34233"/>
+                <label name="host" value="zhoujianping1"/>
+                <label name="thread" value="10708@zhoujianping1.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1551768815740" stop="1551768845832" status="passed">
+            <name>test[234567,765432]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumTest"/>
+                <label name="testClass" value="com.demo.TestDemo"/>
+                <label name="testMethod" value="test"/>
+                <label name="testId" value="34233"/>
+                <label name="host" value="zhoujianping1"/>
+                <label name="thread" value="10708@zhoujianping1.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1551768815740" stop="1551768845832" status="passed">
+            <name>test[234567,765432]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumTest"/>
+                <label name="testClass" value="com.demo.TestDemo"/>
+                <label name="testMethod" value="test"/>
+                <label name="testId" value="34233"/>
+                <label name="host" value="zhoujianping1"/>
+                <label name="thread" value="10708@zhoujianping1.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1551768845931" stop="1551768876134" status="passed">
+            <name>test[345678,876543]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumTest"/>
+                <label name="testClass" value="com.demo.TestDemo"/>
+                <label name="testMethod" value="test"/>
+                <label name="testId" value="34233"/>
+                <label name="host" value="zhoujianping1"/>
+                <label name="thread" value="10708@zhoujianping1.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1551768845931" stop="1551768876134" status="passed">
+            <name>test[345678,876543]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumTest"/>
+                <label name="testClass" value="com.demo.TestDemo"/>
+                <label name="testMethod" value="test"/>
+                <label name="testId" value="34233"/>
+                <label name="host" value="zhoujianping1"/>
+                <label name="thread" value="10708@zhoujianping1.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

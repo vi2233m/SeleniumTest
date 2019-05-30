@@ -61,6 +61,8 @@ public class AddStandInboundPage extends AddInboundPage {
     WebElement 数量;
     @FindBy(xpath = "//button[contains(text(),'新增下一个')]")
     WebElement 新增下一个;
+    @FindBy(xpath = "//a[@id='addPackage']")
+    WebElement 新增包裹;
     @FindBy(xpath = "//button[contains(text(),'确定')]")
     WebElement 确定;
     @FindBy(xpath = "//button[@id='stepTwoSave']")
@@ -126,7 +128,7 @@ public class AddStandInboundPage extends AddInboundPage {
      * @return
      */
     @Step("标准入库下单 第二步")
-    public AddStandInboundPage stepTwo(InboundAddData data) throws Exception {
+    public AddStandInboundPage stepTwo(InboundAddData data, int packageNum, int skuNum) throws Exception {
         Allure.attachment("箱号:",data.getCaseNo());
         Allure.attachment("packageWeight:",data.getWeight());
         Allure.attachment("packageLength",data.getLength());
@@ -134,20 +136,28 @@ public class AddStandInboundPage extends AddInboundPage {
         Allure.attachment("sendKeys",data.getHeight());
         Allure.attachment("商品编码",data.getSkuCode());
         逐个添加.click();
-        箱号.sendKeys(data.getCaseNo());
-        packageWeight.sendKeys(data.getWeight());
-        packageLength.sendKeys(data.getLength());
-        packageWidth.sendKeys(data.getWidth());
-        packageHeight.sendKeys(data.getHeight());
-        商品编码.sendKeys(data.getSkuCode());
+        for( int i=0; i< packageNum; i ++) {
+            if(i != 0){
+                新增包裹.click(); //如果包裹数不止1 个的话，需要点新增包裹
+            }
+            String caseNo =(long)(1 + Math.random() * 100000000)+"";
+            箱号.sendKeys(caseNo);
+            packageWeight.sendKeys(data.getWeight());
+            packageLength.sendKeys(data.getLength());
+            packageWidth.sendKeys(data.getWidth());
+            packageHeight.sendKeys(data.getHeight());
+            商品编码.sendKeys(data.getSkuCode());
 //        Thread.sleep(2000);
-        By test1 = By.xpath("//div[@class='xdsoft_autocomplete_dropdown']/div");
-        WebDriverWait wait = new WebDriverWait(driver,5);
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(test1));
-        Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.ENTER).perform();
-        确定.click();
-        Thread.sleep(3000);
+            By test1 = By.xpath("//div[@class='xdsoft_autocomplete_dropdown']/div");
+            WebDriverWait wait = new WebDriverWait(driver, 5);
+            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(test1));
+            Actions actions = new Actions(driver);
+            actions.sendKeys(Keys.ENTER).perform();
+            数量.clear();
+            数量.sendKeys(skuNum +"");
+            确定.click();
+            Thread.sleep(3000);
+        }
         继续02.click();
         return new AddStandInboundPage(driver);
     }

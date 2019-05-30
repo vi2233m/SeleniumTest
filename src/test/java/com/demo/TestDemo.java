@@ -28,9 +28,7 @@ public class TestDemo extends TestBaseRunner {
     @DataProvider
     public Object[][] getData(){
         Object[][] objects = {
-                {"123456","654321"},
-                {"234567","765432"},
-                {"345678","876543"}
+                {"123456","654321"}
         };
         return objects;
     }
@@ -44,18 +42,6 @@ public class TestDemo extends TestBaseRunner {
 //        LoginPage loginPage = new LoginPage(driver);
 //        loginPage.login("rebecca", "888").gotoWareHousePage();
 
-//        Thread.sleep(5000);
-//        By accountElement = By.xpath("//input[@id='account']");
-//        By passwordElement = By.xpath("//input[@id='password']");
-//        By loginElement = By.xpath("//input[@id='loginBtn']");
-//        driver.findElement(accountElement).sendKeys("rebecca");
-//        driver.findElement(passwordElement).sendKeys("888");
-//        driver.findElement(loginElement).click();
-
-
-//        HomePage homePage = new HomePage(driver);
-//        homePage.gotoWareHousePage();
-
         InboundPage inboundPage = new InboundPage(driver);
         InboundAddData inboundAddData = new InboundAddData();
         inboundAddData.setCaseNo(caseNo);
@@ -64,7 +50,7 @@ public class TestDemo extends TestBaseRunner {
                 .gotoAddInboundPage()
                 .gotoAddStandInboundPage()
                 .stepOne(inboundAddData)
-                .stepTwo(inboundAddData)
+                .stepTwo(inboundAddData,5,5)
                 .stepThree(inboundAddData)
                 .stepFour(inboundAddData)
                 .stepFive();

@@ -1,9 +1,10 @@
 package pages;
 
-public interface Test {
+public class Test {
 
 
-    default void getName(){
-        System.out.println(" bbbbb");
+
+    public static void main(String[] args){
+        System.out.println((long) (1 + Math.random() * 100000000));
     }
 }
