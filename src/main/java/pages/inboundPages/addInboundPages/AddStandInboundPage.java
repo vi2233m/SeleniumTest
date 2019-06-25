@@ -70,7 +70,7 @@ public class AddStandInboundPage extends AddInboundPage {
     @FindBy(xpath = "//button[@id='stepTwoContinue']")
     WebElement 继续02;
     //跨国物流信息  第3步
-    @FindBy(xpath = "//div[@id='select_logisticsPlanNo']")
+    @FindBy(xpath = "//div[@id='select_info_logisticsPlanNo']")
     WebElement 物流计划;
     @FindBy(xpath = "//ul[@id='options_logisticsPlanNo']/li[2]")
     WebElement 物流计划选择;
@@ -114,11 +114,9 @@ public class AddStandInboundPage extends AddInboundPage {
         new Select(WINIT产品).selectByValue(data.getProduct());
         客户订单号.sendKeys(data.getCustomerOrderNo());
         new Select(验货仓).selectByValue(data.getInspectionWH());
-        Thread.sleep(1000);
-        new Select(目的仓).selectByValue(data.getDestinationWH());
-        Thread.sleep(1000);
-//        new WaitElement(driver, 继续01);
-        继续01.click();
+        new WaitElement(目的仓, data.getDestinationWH(),5);
+        new WaitElement(继续01, 5);
+
         return new AddStandInboundPage(driver);
     }
 
@@ -158,7 +156,8 @@ public class AddStandInboundPage extends AddInboundPage {
             确定.click();
             Thread.sleep(3000);
         }
-        继续02.click();
+        new WaitElement(继续02, 5);
+
         return new AddStandInboundPage(driver);
     }
 
@@ -170,15 +169,13 @@ public class AddStandInboundPage extends AddInboundPage {
     @Step("标准入库下单 第三步")
     public AddStandInboundPage stepThree(InboundAddData data) throws Exception {
         Reporter.log("出口商" + data.getExporterCode());
-        Thread.sleep(2000);
-        物流计划.click();
-        Thread.sleep(2000);
-        物流计划选择.click();
-        new Select(出口商).selectByValue(data.getExporterCode());
-        Thread.sleep(1000);
-        new Select(进口报关规则).selectByValue(data.getImportRules());
-        Thread.sleep(1000);
-        继续03.click();
+
+        new WaitElement(物流计划, 10);
+        new WaitElement(物流计划选择, 5);
+//        new Select(出口商).selectByValue(data.getExporterCode());
+        new WaitElement(出口商, data.getExporterCode(),5);
+        new WaitElement(进口报关规则, data.getImportRules(),5);
+        new WaitElement(继续03, 5);
         return new AddStandInboundPage(driver);
     }
 
@@ -190,14 +187,11 @@ public class AddStandInboundPage extends AddInboundPage {
     @Step("标准入库下单 第四步")
     @Description
     public AddStandInboundPage stepFour(InboundAddData data) throws Exception {
-        Thread.sleep(1000);
-        new Select(验货方式).selectByValue(data.getInspectionType());
-        Thread.sleep(1000);
-        new Select(提货类型).selectByValue(data.getPickupType());
-        Thread.sleep(1000);
-        new Select(发货供应商).selectByValue(data.getSupplier());
+        new WaitElement(验货方式, data.getInspectionType(),5);
+        new WaitElement(提货类型, data.getPickupType(),5);
+        new WaitElement(发货供应商, data.getSupplier(),5);
         快递单号.sendKeys(data.getExpressNo());
-        继续04.click();
+        new WaitElement(继续04, 5);
         return new AddStandInboundPage(driver);
     }
 
@@ -209,8 +203,7 @@ public class AddStandInboundPage extends AddInboundPage {
     @Step("标准入库下单提交 第五步")
     @Description
     public AllInboundPage stepFive() throws InterruptedException {
-        Thread.sleep(2000);
-        提交.click();
+        new WaitElement(提交, 10);
         return new AllInboundPage();
     }
 
